@@ -1,0 +1,92 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+ } */
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+.loader {
+  width: 800px;
+  height: 6px;
+  margin: 50px auto;
+  background: linear-gradient(top, #ccc, #303030);
+  box-shadow: inset 0 2px 4px #111;
+  border: solid 2px #111;
+}
+
+.progressCSHARP {
+  width: 0;
+  height: 5px;
+  background: linear-gradient(to top, #09f, #04f);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -4px rgba(0, 0, 0, 0.09), 0 0 20px rgba(0, 96, 255, 0.5);
+  animation: loadingCSHARP 12s linear forwards;
+}
+
+.progressPHP {
+  width: 0;
+  height: 5px;
+  background: linear-gradient(to top, #09f, #04f);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -4px rgba(0, 0, 0, 0.09), 0 0 20px rgba(0, 96, 255, 0.5);
+  animation: loadingPHP 12s linear forwards;
+}
+
+.progressJavaScript {
+  width: 0;
+  height: 5px;
+  background: linear-gradient(to top, #09f, #04f);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -4px rgba(0, 0, 0, 0.09), 0 0 20px rgba(0, 96, 255, 0.5);
+  animation: loadingJavaScript 12s linear forwards;
+}
+
+.progressHTML {
+  width: 0;
+  height: 5px;
+  background: linear-gradient(to top, #09f, #04f);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -4px rgba(0, 0, 0, 0.09), 0 0 20px rgba(0, 96, 255, 0.5);
+  animation: loadingHTML 12s linear forwards;
+}
+
+.progressJAVA {
+  width: 0;
+  height: 5px;
+  background: linear-gradient(to top, #09f, #04f);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), inset 0 -4px rgba(0, 0, 0, 0.09), 0 0 20px rgba(0, 96, 255, 0.5);
+  animation: loadingJAVA 12s linear forwards;
+}
+
+@keyframes loadingCSHARP {
+  from {}
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes loadingPHP {
+  from {}
+  to {
+    width: 80%;
+  }
+}
+@keyframes loadingJavaScript {
+  from {}
+  to {
+    width: 50%;
+  }
+}
+@keyframes loadingHTML {
+  from {}
+  to {
+    width: 70%;
+  }
+}
+@keyframes loadingJAVA {
+  from {}
+  to {
+    width: 50%;
+  }
+}
