@@ -375,6 +375,7 @@ h5 {
     text-decoration: none;
     font-weight: bold;
 }
+
 .box-primary-nav a:focus {
     outline: none;
 }
@@ -960,6 +961,7 @@ p {
 
 .service-box {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .service-box h3 {
@@ -994,7 +996,7 @@ p {
     resize: none;
 }
 
-.textarea-contact > span {
+.textarea-contact>span {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -1029,7 +1031,7 @@ p {
     color: #9a9a9a;
 }
 
-.input-contact > span {
+.input-contact>span {
     position: absolute;
     top: 50%;
     left: 20px;
@@ -1043,8 +1045,8 @@ p {
     z-index: 1;
 }
 
-.input-contact > span.active,
-.textarea-contact > span.active {
+.input-contact>span.active,
+.textarea-contact>span.active {
     color: #ffbf00;
     font-size: 10px;
     top: 0px;
@@ -1180,4 +1182,38 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
+}
+
+.right {
+    width: 5%;
+    height: 8%;
+    visibility: hidden;
+    background-size: cover;
+    margin-top: 15%;
+    right: 30px;
+    position: absolute;
+}
+
+.left {
+    width: 5%;
+    height: 8%;
+    visibility: hidden;
+    background-size: cover;
+    margin-top: 15%;
+    left: 30px;
+    position: absolute;
+    transform: scaleX(-1);
+}
+
+.imageF {
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+}
+
+.imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
